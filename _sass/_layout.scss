@@ -1,0 +1,78 @@
+html {
+  box-sizing: border-box;
+  font-size: $default-root-font-size;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #fff;
+  font-family: $default-font-family;
+}
+
+.global-nav {
+  padding: 2.78rem;
+  display: flex;
+  align-items: center;
+}
+
+.global-nav__title {
+  font-size: 1.33rem;
+  text-decoration: none;
+  color: $main-color;
+}
+
+.global-nav__list {
+  list-style: none;
+  margin: 0 0 0 .83rem;
+  padding: 0;
+}
+
+.global-nav__item {
+  display: inline-block;
+}
+
+.global-nav__link {
+  padding: 0 .56rem;
+}
+
+.content-container {
+  max-width: 700px;
+  margin: auto;
+  margin-top: 3.33rem;
+  padding: 0 .83rem;
+}
+
+.articles-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.articles-list__item {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 3.33rem;
+  align-items: center;
+}
+
+.articles-list__date {
+  width: 30%;
+  color: rgb(101, 103, 101);
+  font-size: 1rem;
+}
+
+.articles-list__title {
+  width: 70%;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.articles-list__link {
+  color: rgb(28, 28, 28);
+  text-decoration: none;
+}

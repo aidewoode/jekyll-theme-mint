@@ -1,0 +1,17 @@
+title: Mint
+author: Author
+email: your-email@example.com
+description: A clean and responsive jekyll theme
+github_username:  aidewoode
+# twitter_username:
+# facebook_username:
+# dribbble_username:
+
+# Build settings
+markdown: kramdown
+
+theme: jekyll-theme-mint
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag

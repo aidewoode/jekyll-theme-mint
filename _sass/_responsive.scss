@@ -1,0 +1,19 @@
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+
+  .content-container {
+    padding: 0 2.78rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 14px;
+  }
+
+  .articles-list__date {
+    width: 100%;
+  }
+}
