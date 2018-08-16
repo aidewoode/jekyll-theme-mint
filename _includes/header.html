@@ -2,7 +2,7 @@
   <nav class='global-nav'>
     <a class='global-nav__item global-nav__item--title' href='{{ '/' | relative_url }}'>{{ site.title | escape }}</a>
     {% for page in site.pages %}
-      <a class='global-nav__item'href='{{ page.url | relative_url }}'>{{ page.title | escape }}</a>
+      <a class='global-nav__item 'href='{{ page.url | relative_url }}'>{{ page.title | escape }}</a>
     {% endfor %}
   </nav>
 </header>
