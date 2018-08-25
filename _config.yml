@@ -10,8 +10,6 @@ github_username:  aidewoode
 # Build settings
 markdown: kramdown
 
-theme: jekyll-theme-mint
-
 plugins:
  - jekyll-feed
  - jekyll-seo-tag

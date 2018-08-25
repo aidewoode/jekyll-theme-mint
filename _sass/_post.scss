@@ -1,114 +1,93 @@
-/**
- * yue.css
- *
- * yue.css is designed for readable content.
- *
- * Copyright (c) 2013 - 2014 by Hsiaoming Yang.
- */
+// This css basically from yue.css, and I have done some change for it.
 
-.yue {
+.post {
   font-weight: 400;
   line-height: 1.8rem;
   font-size: 1rem;
-  color: #444443;
+  color: $black-lighter;
 }
 
-.yue ::-moz-selection {
-  background-color: rgba(0,0,0,0.2);
+.post h1,
+.post h2,
+.post h3,
+.post h4,
+.post h5,
+.post h6 {
+  color: $black-light;
 }
 
-.yue ::selection {
-  background-color: rgba(0,0,0,0.2);
-}
-
-.yue h1,
-.yue h2,
-.yue h3,
-.yue h4,
-.yue h5,
-.yue h6 {
-  color: #222223;
-}
-
-.yue h1 {
-  font-size: 1.8em;
+.post h1 {
+  font-size: 1.45em;
   margin: 1.3em 0;
   line-height: 1.1em;
 }
 
-.yue > h1 {
+.post > h1 {
   margin-top: 0;
 }
 
-.yue h2 {
-  font-size: 1.5em;
+.post h2 {
+  font-size: 1.35em;
   margin: 0.83em 0;
 }
 
-.yue h3 {
-  font-size: 1.17em;
+.post h3 {
+  font-size: 1.2em;
   margin: 1em 0;
 }
 
-.yue h4,
-.yue h5,
-.yue h6 {
+.post h4,
+.post h5,
+.post h6 {
   font-size: 1em;
   margin: 1.6em 0 1em 0;
 }
 
-.yue h6 {
+.post h6 {
   font-weight: 500;
 }
 
-.yue p {
+.post p {
   margin-top: 0;
   margin-bottom: 1.46em;
 }
 
-.yue a {
-  color: #111;
+.post a {
+  color: $black;
   word-wrap: break-word;
-  -moz-text-decoration-color: rgba(0, 0, 0, 0.4);
-  text-decoration-color: rgba(0, 0, 0, 0.4);
+  text-decoration-color: rgba(0, 0, 0, .8);
 }
 
-.yue a:hover {
-  color: #555;
-  -moz-text-decoration-color: rgba(0, 0, 0, 0.6);
-  text-decoration-color: rgba(0, 0, 0, 0.6);
+.post a:hover {
+  color: $black-lightest;
+  text-decoration-color: rgba(0, 0, 0, .6);
 }
 
-.yue h1 a,
-.yue h2 a,
-.yue h3 a {
+.post h1 a,
+.post h2 a,
+.post h3 a {
   text-decoration: none;
 }
 
-.yue strong,
-.yue b {
+.post strong,
+.post b {
   font-weight: 700;
-  color: #222223;
+  color: $black-light;
 }
 
-.yue em,
-.yue i {
+.post em,
+.post i {
   font-style: italic;
-  color: #222223;
+  color: $black-light;
 }
 
-.yue img {
+.post img {
   max-width: 100%;
   height: auto;
   margin: 0.2em 0;
 }
 
-.yue a img {
-  /* Remove border on IE */
-  border: none;
-}
-
-.yue figure {
+.post figure {
   position: relative;
   clear: both;
   outline: 0;
@@ -117,14 +96,14 @@
   min-height: 100px;
 }
 
-.yue figure img {
+.post figure img {
   display: block;
   max-width: 100%;
   margin: auto auto 4px;
   box-sizing: border-box;
 }
 
-.yue figure figcaption {
+.post figure figcaption {
   position: relative;
   width: 100%;
   text-align: center;
@@ -132,111 +111,111 @@
   margin-top: 10px;
   font-weight: 400;
   font-size: 14px;
-  color: #666665;
+  color: $black-lightest;
 }
 
-.yue figure figcaption a {
+.post figure figcaption a {
   text-decoration: none;
-  color: #666665;
+  color: $black-lightest;
 }
 
-.yue hr {
+.post hr {
   display: block;
-  width: 14%;
-  margin: 40px auto 34px;
+  width: 40%;
+  margin: 60px auto 55px;
   border: 0 none;
-  border-top: 3px solid #dededc;
+  border-top: 1px solid $grey-light;
 }
 
-.yue blockquote {
+.post blockquote {
   margin: 0 0 1.64em 0;
-  border-left: 3px solid #dadada;
+  border-left: 3px solid $grey-light;
   padding-left: 12px;
-  color: #666664;
+  color: $black-lightest;
 }
 
-.yue blockquote a {
-  color: #666664;
+.post blockquote a {
+  color: $black-lightest;
 }
 
-.yue ul,
-.yue ol {
+.post ul,
+.post ol {
   margin: 0 0 24px 6px;
   padding-left: 16px;
 }
 
-.yue ul {
+.post ul {
   list-style-type: square;
 }
 
-.yue ol {
+.post ol {
   list-style-type: decimal;
 }
 
-.yue li {
+.post li {
   margin-bottom: 0.2em;
 }
 
-.yue li ul,
-.yue li ol {
+.post li ul,
+.post li ol {
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 14px;
 }
 
-.yue li ul {
+.post li ul {
   list-style-type: disc;
 }
 
-.yue li ul ul {
+.post li ul ul {
   list-style-type: circle;
 }
 
-.yue li p {
+.post li p {
   margin: 0.4em 0 0.6em;
 }
 
-.yue .unstyled {
+.post .unstyled {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-.yue code,
-.yue tt {
-  color: #808080;
+.post code,
+.post tt {
+  color: $grey;
   font-size: 0.96em;
-  background-color: #f9f9f7;
+  background-color: $grey-lightest;
   padding: 1px 2px;
-  border: 1px solid #dadada;
+  border: 1px solid $grey-light;
   border-radius: 3px;
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
   word-wrap: break-word;
 }
 
-.yue pre {
+.post pre {
   margin: 1.64em 0;
   padding: 7px;
   border: none;
-  border-left: 3px solid #dadada;
+  border-left: 3px solid $grey-light;
   padding-left: 10px;
   overflow: auto;
   line-height: 1.5;
   font-size: 0.96em;
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
-  color: #4c4c4c;
-  background-color: #f9f9f7;
+  color: $black-lightest;
+  background-color: $grey-lightest;
 }
 
-.yue pre code,
-.yue pre tt {
-  color: #4c4c4c;
+.post pre code,
+.post pre tt {
+  color: $black-lightest;
   border: none;
   background: none;
   padding: 0;
 }
 
-.yue table {
+.post table {
   width: 100%;
   max-width: 100%;
   border-collapse: collapse;
@@ -246,32 +225,32 @@
   box-sizing: border-box;
 }
 
-.yue th,
-.yue td {
+.post th,
+.post td {
   text-align: left;
   padding: 4px 8px 4px 10px;
-  border: 1px solid #dadada;
+  border: 1px solid $grey-light;
 }
 
-.yue td {
+.post td {
   vertical-align: top;
 }
 
-.yue tr:nth-child(even) {
-  background-color: #efefee;
+.post tr:nth-child(even) {
+  background-color: $grey-lightest;
 }
 
-.yue iframe {
+.post iframe {
   display: block;
   max-width: 100%;
   margin-bottom: 30px;
 }
 
-.yue figure iframe {
+.post figure iframe {
   margin: auto;
 }
 
-.yue table pre {
+.post table pre {
   margin: 0;
   padding: 0;
   border: none;
@@ -279,13 +258,12 @@
 }
 
 @media (min-width: 1100px) {
-  .yue blockquote {
-    margin-left: -24px;
+  .post blockquote {
     padding-left: 20px;
     border-width: 4px;
   }
 
-  .yue blockquote blockquote {
+  .post blockquote blockquote {
     margin-left: 0;
   }
 }

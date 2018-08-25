@@ -1,4 +1,16 @@
-$main-color: rgb(134, 193, 102);
-$icon-color: rgb(189, 192, 186);
+$green: rgb(134, 193, 102);
+$green-light: lighten($green, 10);
+$green-lightest: lighten($green, 30);
+
+$black: rgb(28, 28, 28);
+$black-light: lighten($black, 10);
+$black-lighter: lighten($black, 20);
+$black-lightest: lighten($black, 30);
+$grey: lighten($black, 40);
+$grey-light: lighten($black, 75);
+$grey-lightest: lighten($black, 85);
+
+$white: rgb(255, 255, 255);
+
 $default-font-family: 'Georgia', 'Xin Gothic', 'Hiragino Sans GB', 'Droid Sans Fallback', 'PingFang SC', 'Microsoft YaHei', 'Wenquanyi Micro Hei', sans-serif;
-$default-root-font-size: 18px;
+$default-font-size: 18px;

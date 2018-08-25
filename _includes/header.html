@@ -1,8 +1,8 @@
-<header>
-  <nav class='global-nav'>
-    <a class='global-nav__item global-nav__item--title' href='{{ '/' | relative_url }}'>{{ site.title | escape }}</a>
+<header class='header'>
+  <nav class='header__nav'>
+    <a class='header__nav__item header__nav__item--title' href='{{ '/' | relative_url }}'>{{ site.title | escape }}</a>
     {% for page in site.pages %}
-      <a class='global-nav__item 'href='{{ page.url | relative_url }}'>{{ page.title | escape }}</a>
+      <a class='header__nav__item'href='{{ page.url | relative_url }}'>{{ page.title | escape }}</a>
     {% endfor %}
   </nav>
 </header>
