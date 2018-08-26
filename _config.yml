@@ -2,12 +2,15 @@ title: Mint
 author: Author
 email: your-email@example.com
 description: A clean and responsive jekyll theme
+
 github_username:  aidewoode
 # twitter_username:
 # facebook_username:
 # dribbble_username:
 
-# Build settings
+# google_analytics:
+# disqus_shortname:
+
 markdown: kramdown
 
 plugins:

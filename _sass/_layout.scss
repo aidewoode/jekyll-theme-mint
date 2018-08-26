@@ -110,6 +110,10 @@ body {
   fill: $grey;
 }
 
+#disqus_thread {
+  margin-top: 60px;
+}
+
 ::selection {
   background: $green-lightest;
 }
