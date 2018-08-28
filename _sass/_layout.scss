@@ -36,14 +36,14 @@ body {
 .header__nav__item {
   display: inline-block;
   text-decoration: none;
-  font-size: .9rem;
-  color: $green-light;
+  font-size: 1rem;
+  color: $green;
 }
 
 .header__nav__item--title {
-  font-size: 1.5rem;
+  font-size: 1.55rem;
   margin-right: 40px;
-  color: $green;
+  font-weight: bold;
 }
 
 .posts {
@@ -112,8 +112,4 @@ body {
 
 #disqus_thread {
   margin-top: 60px;
-}
-
-::selection {
-  background: $green-lightest;
 }

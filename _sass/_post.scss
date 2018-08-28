@@ -27,7 +27,7 @@
 }
 
 .post h2 {
-  font-size: 1.35em;
+  font-size: 1.3em;
   margin: 0.83em 0;
 }
 
@@ -183,7 +183,7 @@
 
 .post code,
 .post tt {
-  color: $grey;
+  color: $black-light;
   font-size: 0.96em;
   background-color: $grey-lightest;
   padding: 1px 2px;
@@ -203,13 +203,13 @@
   line-height: 1.5;
   font-size: 0.96em;
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
-  color: $black-lightest;
+  color: $black-light;
   background-color: $grey-lightest;
 }
 
 .post pre code,
 .post pre tt {
-  color: $black-lightest;
+  color: $black-light;
   border: none;
   background: none;
   padding: 0;

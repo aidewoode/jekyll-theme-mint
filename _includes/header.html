@@ -2,7 +2,9 @@
   <nav class='header__nav'>
     <a class='header__nav__item header__nav__item--title' href='{{ '/' | relative_url }}'>{{ site.title | escape }}</a>
     {% for page in site.pages %}
-      <a class='header__nav__item'href='{{ page.url | relative_url }}'>{{ page.title | escape }}</a>
+      {% if page.title %}
+        <a class='header__nav__item' href='{{ page.url | relative_url }}'>{{ page.title | escape }}</a>
+      {% endif %}
     {% endfor %}
   </nav>
 </header>
