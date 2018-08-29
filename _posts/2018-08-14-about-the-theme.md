@@ -1,10 +1,13 @@
-# jekyll-theme-mint
+---
+layout: post
+---
 
 A clean and responsive jekyll theme. Designing for legibility and accessibility.
 
 ## Installation
 
 Add this line to your Jekyll site's `Gemfile`:
+
 
 ```ruby
 gem "jekyll-theme-mint"

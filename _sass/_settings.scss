@@ -20,5 +20,6 @@ $grey-lightest: lighten($black, 85);
 
 $white: #fff;
 
-$default-font-family: 'Georgia', 'Xin Gothic', 'Hiragino Sans GB', 'Droid Sans Fallback', 'PingFang SC', 'Microsoft YaHei', 'Wenquanyi Micro Hei', sans-serif;
+$default-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Droid Sans', 'Helvetica Neue',  'PingFang SC', 'Hiragino Sans GB', 'Droid Sans Fallback', 'Microsoft YaHei', 'Wenquanyi Micro Hei', sans-serif;
+$header-font-family: 'Palatino', 'Palatino Linotype', 'Book Antiqua', #{$default-font-family};
 $default-font-size: 18px;
