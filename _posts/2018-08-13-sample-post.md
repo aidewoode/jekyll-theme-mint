@@ -47,7 +47,7 @@ hello('aide')
 
 This is a [github](https://github.com/aidewoode/jekyll-theme-mint) link.
 
-![Mint](/images/sample.jpg)
+![Mint]({{ '/images/sample.jpg' | absolute_url }})
 
 ## Emphasis
 
