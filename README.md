@@ -37,6 +37,14 @@ facebook_username:  your_name
 dribbble_username:  your_name
 ```
 
+### Customize date formate
+
+Edit `_config.yml` file to change default date formate.
+
+```yaml
+date_format: '%b %-d, %Y'
+```
+
 ### Enable Disqus
 
 Edit `_config.yml` file to add your Disqus short name and you can enable Disqus on your site.

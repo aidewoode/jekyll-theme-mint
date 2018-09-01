@@ -57,18 +57,19 @@ body {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 50px;
-  align-items: center;
+  align-items: baseline;
 }
 
 .posts__date {
   width: 30%;
   color: $grey;
   font-size: 1rem;
+  font-family: $serif-fonts;
 }
 
 .posts__title {
   width: 70%;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .posts__link {
@@ -78,7 +79,7 @@ body {
 
 .footer {
   padding: 25px 0;
-  font-size: .8rem;
+  font-size: .9rem;
   font-style: italic;
   font-family: $serif-fonts;
   color: $grey;
