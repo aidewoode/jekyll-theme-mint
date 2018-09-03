@@ -1,5 +1,7 @@
 # jekyll-theme-mint
 
+![screenshot](https://raw.github.com/aidewoode/jekyll-theme-mint/master/screenshot.png)
+
 A clean and responsive jekyll theme. Designing for legibility and accessibility.
 
 ## Installation
