@@ -74,6 +74,17 @@ For test, you can run `bundle exec jekyll serve` and open your browser at `http:
 
 For more information you can see here <https://jekyllrb.com/docs/themes/>.
 
+You can also use docker-compose to set up development environment.
+
+Just like this:
+
+    $ docker-compose run --rm app bundle
+    $ docker-compose up
+
+## Build gem
+
+    $ gem build jekyll-theme-mint.gemspec 
+
 ## License
 
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).

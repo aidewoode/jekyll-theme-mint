@@ -1,0 +1,13 @@
+version: '3.0'
+services:
+  app:
+    image: ruby:2.6.0
+    volumes:
+      - .:/app
+      - bundler_data:/usr/local/bundle
+    working_dir: /app
+    command: ["jekyll", "server", "--host", "0.0.0.0"]
+    ports:
+      - 4000:4000
+volumes:
+  bundler_data:

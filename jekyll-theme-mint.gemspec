@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = 'jekyll-theme-mint'
-  spec.version       = '1.0.2'
+  spec.version       = '1.0.3'
   spec.authors       = ['aidewoode']
   spec.email         = ['aidewoode@gmail.com']
 
@@ -15,7 +15,7 @@ Gem::Specification.new do |spec|
   end
 
   spec.add_runtime_dependency 'jekyll', '~> 3.8'
-  spec.add_runtime_dependency 'jekyll-feed', '~> 0.10.0'
+  spec.add_runtime_dependency 'jekyll-feed', '~> 0.11.0'
   spec.add_runtime_dependency 'jekyll-seo-tag', '~> 2.5.0', '>= 2.5.0'
 
   spec.add_development_dependency 'bundler', '~> 1.16'
