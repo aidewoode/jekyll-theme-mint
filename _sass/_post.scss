@@ -4,7 +4,7 @@
   font-weight: 400;
   line-height: 1.8rem;
   font-size: 1rem;
-  color: $black-lighter;
+  color: $post-content-color;
 }
 
 .post h1,
@@ -13,7 +13,7 @@
 .post h4,
 .post h5,
 .post h6 {
-  color: $black-light;
+  color: $post-heading-color;
 }
 
 .post h1 {
@@ -53,14 +53,14 @@
 }
 
 .post a {
-  color: $black;
+  color: $post-link-color;
   word-wrap: break-word;
-  text-decoration-color: rgba(0, 0, 0, .8);
+  text-decoration-color: rgba($post-link-color, .8);
 }
 
 .post a:hover {
-  color: $black-lightest;
-  text-decoration-color: rgba(0, 0, 0, .6);
+  color: $post-link-hover-color;
+  text-decoration-color: rgba($post-link-hover-color, .6);
 }
 
 .post h1 a,
@@ -72,13 +72,13 @@
 .post strong,
 .post b {
   font-weight: 700;
-  color: $black-light;
+  color: $post-emphasis-color;
 }
 
 .post em,
 .post i {
   font-style: italic;
-  color: $black-light;
+  color: $post-emphasis-color;
 }
 
 .post img {
@@ -111,12 +111,12 @@
   margin-top: 10px;
   font-weight: 400;
   font-size: 14px;
-  color: $black-lightest;
+  color: $post-figure-color;
 }
 
 .post figure figcaption a {
   text-decoration: none;
-  color: $black-lightest;
+  color: $post-figure-color;
 }
 
 .post hr {
@@ -124,18 +124,18 @@
   width: 40%;
   margin: 60px auto 55px;
   border: 0 none;
-  border-top: 1px solid $grey-light;
+  border-top: 1px solid $post-border-color;
 }
 
 .post blockquote {
   margin: 0 0 1.64em 0;
-  border-left: 3px solid $grey-light;
+  border-left: 3px solid $post-border-color;
   padding-left: 12px;
-  color: $black-lightest;
+  color: $post-blockquote-color;
 }
 
 .post blockquote a {
-  color: $black-lightest;
+  color: $post-blockquote-color;
 }
 
 .post ul,
@@ -183,11 +183,11 @@
 
 .post code,
 .post tt {
-  color: $black-light;
+  color: $post-block-color;
+  background-color: $post-block-bg-color;
   font-size: 0.96em;
-  background-color: $grey-lightest;
   padding: 1px 2px;
-  border: 1px solid $grey-light;
+  border: 1px solid $post-border-color;
   border-radius: 3px;
   font-family: $monospaced-fonts;
   word-wrap: break-word;
@@ -197,19 +197,19 @@
   margin: 1.64em 0;
   padding: 7px;
   border: none;
-  border-left: 3px solid $grey-light;
+  border-left: 3px solid $post-border-color;
   padding-left: 10px;
   overflow: auto;
   line-height: 1.5;
   font-size: 0.96em;
   font-family: $monospaced-fonts;
-  color: $black-light;
-  background-color: $grey-lightest;
+  color: $post-block-color;
+  background-color: $post-block-bg-color;
 }
 
 .post pre code,
 .post pre tt {
-  color: $black-light;
+  color: $post-block-color;
   border: none;
   background: none;
   padding: 0;
@@ -229,7 +229,7 @@
 .post td {
   text-align: left;
   padding: 4px 8px 4px 10px;
-  border: 1px solid $grey-light;
+  border: 1px solid $post-border-color;
 }
 
 .post td {
@@ -237,7 +237,7 @@
 }
 
 .post tr:nth-child(even) {
-  background-color: $grey-lightest;
+  background-color: $post-block-bg-color;
 }
 
 .post iframe {

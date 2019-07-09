@@ -2,7 +2,17 @@
   <meta charset='utf-8'>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
   {% seo %}
-  <link rel='stylesheet' href='{{ '/assets/main.css' | relative_url }}'>
+
+  {% case site.blog_theme %}
+    {% when 'light' %}
+      <link rel='stylesheet' href='{{ '/assets/light.css' | relative_url }}'>
+    {% when 'dark' %}
+      <link rel='stylesheet' href='{{ '/assets/dark.css' | relative_url }}'>
+    {% when 'auto' %}
+      <link rel='stylesheet' href='{{ '/assets/light.css' | relative_url }}'>
+      <link rel='stylesheet' href='{{ '/assets/dark.css' | relative_url }}' media="(prefers-color-scheme: dark)">
+  {% endcase %}
+
   {% feed_meta %}
   {% include google_analytics.html %}
 </head>

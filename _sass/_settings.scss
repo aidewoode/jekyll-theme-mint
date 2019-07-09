@@ -1,25 +1,3 @@
-$green: #1b813e;
-$green-dark: darken($green, 5);
-$green-darker: darken($green, 10);
-
-$purple: #8F50AA;
-$purple-dark: darken($purple, 10);
-$purple-darker: darken($purple, 20);
-
-$red: #cb1b45;
-$red-dark: darken($red, 10);
-
-$black: #1c1c1c;
-$black-light: lighten($black, 10);
-$black-lighter: lighten($black, 20);
-$black-lightest: lighten($black, 30);
-
-$grey: lighten($black, 35);
-$grey-light: lighten($black, 75);
-$grey-lightest: lighten($black, 85);
-
-$white: #fff;
-
 $zh-fonts: 'PingFang SC', 'Hiragino Sans GB', 'Droid Sans Fallback', 'Microsoft YaHei', 'Wenquanyi Micro Hei';
 $sans-serif-fonts: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Droid Sans', 'Helvetica Neue', #{$zh-fonts}, sans-serif;
 $serif-fonts: 'Palatino', 'Palatino Linotype', 'Book Antiqua', #{$zh-fonts}, serif;

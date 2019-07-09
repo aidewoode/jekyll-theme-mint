@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  background-color: $white;
+  background-color: $body-bg-color;
   font-family: $sans-serif-fonts;
 }
 
@@ -38,7 +38,7 @@ body {
   text-decoration: none;
   font-size: 1rem;
   font-family: $serif-fonts;
-  color: $green;
+  color: $header-nav-color;
 }
 
 .header__nav__item--title {
@@ -62,7 +62,7 @@ body {
 
 .posts__date {
   width: 30%;
-  color: $grey;
+  color: $post-date-color;
   font-size: 1rem;
   font-family: $serif-fonts;
 }
@@ -73,7 +73,7 @@ body {
 }
 
 .posts__link {
-  color: $black;
+  color: $post-link-color;
   text-decoration: none;
 }
 
@@ -82,7 +82,7 @@ body {
   font-size: .9rem;
   font-style: italic;
   font-family: $serif-fonts;
-  color: $grey;
+  color: $footer-color;
 }
 
 .footer__list {
@@ -98,7 +98,7 @@ body {
 }
 
 .footer__item a {
-  color: $grey;
+  color: $footer-color;
   text-decoration: none;
 }
 
@@ -110,7 +110,7 @@ body {
 .icon {
   height: .9rem;
   width: .9rem;
-  fill: $grey;
+  fill: $icon-color;
 }
 
 #disqus_thread {

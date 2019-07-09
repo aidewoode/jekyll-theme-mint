@@ -28,6 +28,22 @@ Or install it yourself as:
 
 ## Usage
 
+### Theme
+
+Edit `_config.yml` file to change blog theme.
+
+```yaml
+blog_theme: light  # use light theme
+
+# or
+
+blog_theme: dark # use dark theme
+
+# or
+
+blog_theme: auto # auto change the theme when your system and browser supported
+```
+
 ### Add social links
 
 Edit `_config.yml` file to add your social links.

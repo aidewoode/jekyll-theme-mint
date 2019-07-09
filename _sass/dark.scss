@@ -1,0 +1,51 @@
+// colors for the theme
+
+$green: #229f4c;
+$green-light: lighten($green, 5);
+$green-lighter: lighten($green, 10);
+
+$purple: #aa78bf;
+$purple-light: lighten($purple, 10);
+$purple-lighter: lighten($purple, 20);
+
+$red: #e85478;
+$red-light: lighten($red, 10);
+
+$white: #fbfbfb;
+$white-dark: darken($white, 10);
+$white-darker: darken($white, 20);
+$white-darkest: darken($white, 30);
+
+$grey: darken($white, 35);
+$grey-darken: darken($white, 75);
+$grey-darkest: darken($white, 85);
+
+$black: #101010;
+
+// specific colors for page
+
+$body-bg-color: $black;
+$header-nav-color: $green;
+$footer-color: $grey;
+$icon-color: $grey;
+
+// specific colors for post
+
+$post-date-color: $grey;
+$post-content-color: $white-darker;
+$post-heading-color: $white-dark;
+$post-link-color: $white;
+$post-link-hover-color: $white-darkest;
+$post-emphasis-color: $white-dark;
+$post-figure-color: $white-darkest;
+$post-border-color: $grey-darken;
+$post-blockquote-color: $white-darkest;
+$post-block-color: $white-dark;
+$post-block-bg-color: $grey-darkest;
+
+@import 'normalize';
+@import 'settings';
+@import 'layout';
+@import 'responsive';
+@import 'post';
+@import 'highlight_dark';
