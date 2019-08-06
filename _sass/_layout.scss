@@ -21,6 +21,9 @@ body {
 }
 
 .header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
   padding: 50px 0;
 }
 
@@ -29,19 +32,24 @@ body {
 }
 
 .header__nav {
-  display: flex;
-  align-items: baseline;
+  white-space: nowrap;
+  overflow: auto;
+  margin-top: 12px;
 }
 
-.header__nav__item {
-  display: inline-block;
+.header__nav__item,
+.header__title {
   text-decoration: none;
   font-size: 1rem;
   font-family: $serif-fonts;
-  color: $header-nav-color;
+  color: $header-color;
 }
 
-.header__nav__item--title {
+.header__nav__item {
+  margin-right: 10px;
+}
+
+.header__title {
   font-size: 1.55rem;
   margin-right: 40px;
   font-weight: bold;

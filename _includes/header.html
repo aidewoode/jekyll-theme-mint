@@ -1,6 +1,6 @@
 <header class='header'>
+  <a class='header__title' href='{{ '/' | relative_url }}'>{{ site.title | escape }}</a>
   <nav class='header__nav'>
-    <a class='header__nav__item header__nav__item--title' href='{{ '/' | relative_url }}'>{{ site.title | escape }}</a>
     {% for page in site.pages %}
       {% if page.title %}
         <a class='header__nav__item' href='{{ page.url | relative_url }}'>{{ page.title | escape }}</a>
