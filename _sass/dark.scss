@@ -24,8 +24,9 @@ $black: #101010;
 
 // specific colors for page
 
+$dark-theme-main-color: $green !default;
 $body-bg-color: $black;
-$header-color: $green;
+$header-color: $dark-theme-main-color;
 $footer-color: $grey;
 $icon-color: $grey;
 

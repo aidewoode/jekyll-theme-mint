@@ -24,8 +24,9 @@ $white: #fff;
 
 // specific colors for page
 
+$light-theme-main-color: $green !default;
 $body-bg-color: $white;
-$header-color: $green;
+$header-color: $light-theme-main-color;
 $footer-color: $grey;
 $icon-color: $grey;
 

@@ -3,3 +3,7 @@
 .sass-cache
 _site
 Gemfile.lock
+.envrc
+/.direnv
+/.gems
+/.jekyll-cache
