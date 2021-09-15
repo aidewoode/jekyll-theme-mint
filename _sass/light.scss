@@ -24,9 +24,8 @@ $white: #fff;
 
 // specific colors for page
 
-$light-theme-main-color: $green !default;
 $body-bg-color: $white;
-$header-color: $light-theme-main-color;
+$header-color: var(--light-theme-accent-color);
 $footer-color: $grey;
 $icon-color: $grey;
 
@@ -44,6 +43,10 @@ $post-border-color: $grey-light;
 $post-blockquote-color: $black-lightest;
 $post-block-color: $black-light;
 $post-block-bg-color: $grey-lightest;
+
+:root {
+  --light-theme-accent-color: #{$green};
+}
 
 @import 'normalize';
 @import 'settings';

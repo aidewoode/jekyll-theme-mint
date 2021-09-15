@@ -13,6 +13,18 @@
       <link rel='stylesheet' href='{{ '/assets/dark.css' | relative_url }}' media="(prefers-color-scheme: dark)">
   {% endcase %}
 
+  <style type='text/css' media='screen'>
+     :root {
+      {% if site.light-theme-accent-color %}
+        --light-theme-accent-color: {{ site.light-theme-accent-color }};
+      {% endif %}
+
+      {% if site.dark-theme-accent-color %}
+        --dark-theme-accent-color: {{ site.dark-theme-accent-color }};
+      {% endif %}
+     }
+  </style>
+
   {% feed_meta %}
   {% include google_analytics.html %}
 </head>
