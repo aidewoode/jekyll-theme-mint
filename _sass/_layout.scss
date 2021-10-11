@@ -46,11 +46,15 @@ body {
 }
 
 .header__nav__item {
-  margin-right: 10px;
+  margin-right: 20px;
+}
+
+.header__nav__item.is-active {
+  font-weight: bold;
 }
 
 .header__title {
-  font-size: 1.55rem;
+  font-size: 1.6rem;
   margin-right: 40px;
   font-weight: bold;
 }
