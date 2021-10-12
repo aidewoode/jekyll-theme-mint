@@ -1,5 +1,17 @@
 <footer class='footer'>
-  <ul class='footer__list'>
+  {% assign site_footer_pages = site.pages | where: 'is_footer', true %}
+
+  {% if site_footer_pages %}
+    <ul class='footer__list'>
+      {% for site_footer_page in site_footer_pages %}
+        <li class='footer__item'>
+          <a href='{{ site_footer_page.url | relative_url }}'>{{ site_footer_page.title | escape }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+  <ul class='footer__list footer__list--social'>
     {% if site.author %}
       {% if site.email %}
         <li class='footer__item'>

@@ -90,6 +90,9 @@ body {
 }
 
 .footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 25px 0;
   font-size: .9rem;
   font-style: italic;
@@ -114,7 +117,20 @@ body {
   text-decoration: none;
 }
 
-.footer__item:nth-child(2):before {
+.footer__list .footer__item:after {
+  content: '|';
+  margin-left: 10px;
+}
+
+.footer__list .footer__item:last-child:after {
+  display: none;
+}
+
+.footer__list--social .footer__item:after {
+  display: none;
+}
+
+.footer__list--social .footer__item:nth-child(2):before {
   content: '|';
   margin-right: 10px;
 }
