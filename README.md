@@ -44,6 +44,16 @@ blog_theme: dark # use dark theme
 blog_theme: auto # auto change the theme when your system and browser supported
 ```
 
+### Accent color of theme
+
+Edit `_config.yml` file to change accent color of theme.
+
+```yaml
+light-theme-accent-color: '#333'
+
+dark-theme-accent-color: '#eee'
+```
+
 ### Add social links
 
 Edit `_config.yml` file to add your social links.
@@ -81,6 +91,13 @@ Edit `_config.yml` file to add your google analytics tracking id and you can ena
 google_analytics: your_google_analystics_tracker_id
 ```
 
+### Footer page
+
+Normally, the links to the pages is displayed in the site header. If you want to display the page link on the footer, you can add this to the front matter of page.
+
+``` yaml
+is_footer: true
+```
 
 ## Development
 
