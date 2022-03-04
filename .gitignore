@@ -7,3 +7,4 @@ Gemfile.lock
 /.direnv
 /.gems
 /.jekyll-cache
+.DS_Store
