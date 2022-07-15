@@ -33,7 +33,8 @@ body {
 
 .header__nav {
   white-space: nowrap;
-  overflow: auto;
+  overflow-y: hidden;
+  overflow-x: auto;
   margin-top: 12px;
 }
 
